@@ -1,13 +1,13 @@
 {
-	"name": "@wsrast/airbnb-prettier-eslint",
-	"version": "1.0.8",
+	"name": "@wsrast/lint",
+	"version": "1.0.9",
 	"author": "Wesley Rast",
-	"description": "A boilerplate setup for linting using prettier, Airbnb settings and Git hooks.",
+	"description": "A boilerplate setup for linting and testing using Jest, prettier, Airbnb settings and Git hooks.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wsrast/airbnb-prettier-eslint"
+		"url": "https://github.com/wsrast/lint"
 	},
-	"keywords": "prettier, airbnb, eslint",
+	"keywords": "prettier, airbnb, eslint, jest",
 	"scripts": {
 		"postinstall": "node request.js"
 	},

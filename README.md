@@ -1,4 +1,4 @@
-# @wsrast/airbnb-prettier-eslint
+# @wsrast/lint
 
 ## What this Package Does
 
@@ -12,7 +12,7 @@ This is a shortcut for bootstrapping the linting and coding standards on a new p
 This new structure allows you to use a single command to do everything. The -Y flag will automatically choose Yarn as the package installer.
 
 ```
-npx install-peerdeps --dev -Y @wsrast/airbnb-prettier-eslint
+npx install-peerdeps --dev -Y @wsrast/lint
 ```
 
 Go into your package.json and add the following entries to enable the git hook.

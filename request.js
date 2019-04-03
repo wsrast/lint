@@ -3,8 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const cwd = process.cwd();
-const filesPath =
-	'https://raw.githubusercontent.com/wsrast/airbnb-prettier-eslint/master/';
+const filesPath = 'https://raw.githubusercontent.com/wsrast/lint/master/';
 const fileNames = ['.editorconfig', '.eslintrc.json', '.prettierrc'];
 
 const projRoot = cwd.split('node_modules')[0];
