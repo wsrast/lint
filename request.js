@@ -4,7 +4,12 @@ const fs = require('fs');
 
 const cwd = process.cwd();
 const filesPath = 'https://raw.githubusercontent.com/wsrast/lint/master/';
-const fileNames = ['.editorconfig', '.eslintrc.json', '.prettierrc'];
+const fileNames = [
+	'.editorconfig',
+	'.eslintrc.json',
+	'.prettierrc',
+	'.markdownlint.json',
+];
 
 const projRoot = cwd.split('node_modules')[0];
 console.log(`Installing to project folder: `, projRoot);
